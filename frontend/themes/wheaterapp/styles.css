@@ -1,0 +1,32 @@
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+
+.main{
+    background-color: var(--lumo-shade-5pct)
+}
+
+.container{
+    box-shadow: 0 0 0 1px var(--lumo-contrast-10pct);
+    border-radius: var(--lumo-border-radius);
+    background-color: var(--lumo-base-color);
+    padding: 16px 24px;
+}
+
+.currentWeather .weatherTemp{
+    font-size: 30px;
+}
+
+span.las{
+    font-size: 24px;
+}
+
+.badgeContainer span.las{
+    font-size: var(--lumo-font-size-l);
+}
+
+.badgeContainer span:first-child{
+    padding-right: 5px;
+}
+
+.badgeContainer{
+    margin-top: -20px;
+}
