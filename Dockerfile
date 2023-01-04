@@ -19,7 +19,7 @@ RUN npm --version
 RUN mvn package -Pproduction -DskipTests
 
 
-FROM adoptopenjdk/openjdk11:jre-11.0.9_11-alpine
+FROM openjdk:11-jre-slim
 COPY --from=builder target/*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/app.jar"]
