@@ -1,0 +1,6 @@
+**
+!app.jar
+!src
+!frontend
+!pom*
+!target/*.jar
