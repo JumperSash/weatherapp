@@ -33,7 +33,7 @@ public class SecurityConfiguration extends VaadinWebSecurity {
 
     @Bean
     public UserDetailsManager userDetailsService() {
-        UserDetails user = User.withUsername("Sascha").password("{noop}3beJ%374O1Xj").roles("USER").build();
+        UserDetails user = User.withUsername("Sascha").password("{noop}demo2023!").roles("USER").build();
         return new InMemoryUserDetailsManager(user);
     }
 }
